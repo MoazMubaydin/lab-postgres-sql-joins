@@ -8,6 +8,7 @@
 
 ```sql
 -- Your Query Goes Here
+Select * from books Inner join authors on books.id = authors.id
 ```
 
 <br>
