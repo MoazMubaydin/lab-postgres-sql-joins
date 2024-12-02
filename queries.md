@@ -35,6 +35,7 @@ SELECT * FROM authors RIGHT JOIN books ON authors.id = books.id
 
 ```sql
 -- Your Query Goes Here
+SELECT books.title, publishers.name, publishers.location FROM books FULL JOIN publishers ON books.id = publishers.id
 ```
 
 <br>
