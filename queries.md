@@ -73,6 +73,9 @@ SELECT * FROM publishers RIGHT JOIN books ON publishers.id = books.publisher_id
 
 ```sql
 -- Your Query Goes Here
+SELECT * FROM(( books
+FULL JOIN publishers ON books.publisher_id =publishers.id)
+FULL JOIN authors ON books.author_id = authors.id)
 ```
 
 <br>
