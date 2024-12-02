@@ -64,6 +64,7 @@ SELECT * FROM publishers LEFT JOIN books ON publishers.id = books.publisher_id
 
 ```sql
 -- Your Query Goes Here
+SELECT * FROM publishers RIGHT JOIN books ON publishers.id = books.publisher_id
 ```
 
 <br>
