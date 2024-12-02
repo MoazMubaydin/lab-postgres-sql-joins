@@ -46,6 +46,7 @@ SELECT books.title, publishers.name, publishers.location FROM books FULL JOIN pu
 
 ```sql
 -- Your Query Goes Here
+SELECT books.title, publishers.name, publishers.location FROM books INNER JOIN publishers ON books.publisher_id = publishers.id
 ```
 
 <br>
