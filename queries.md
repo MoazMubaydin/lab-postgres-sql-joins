@@ -55,6 +55,7 @@ SELECT books.title, publishers.name, publishers.location FROM books INNER JOIN p
 
 ```sql
 -- Your Query Goes Here
+SELECT * FROM publishers LEFT JOIN books ON publishers.id = books.publisher_id
 ```
 
 <br>
