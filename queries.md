@@ -17,6 +17,7 @@ Select * from books Inner join authors on books.id = authors.id
 
 ```sql
 -- Your Query Goes Here
+SELECT * FROM authors LEFT JOIN books ON authors.id = books.id
 ```
 
 <br>
